@@ -21,7 +21,7 @@ If I use the python export.py script:
 python export.py 7fae7513-9860-4fa0-80a4-3dd1e75fb8d4
 python export.py 994da76b-7f3c-400a-8c0c-e70815ba384c
 ```
-### Vide used as input
+### Video used as input
 See file video.mp4 which was used for testing.
 
 
