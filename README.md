@@ -14,6 +14,8 @@ If I use the python export.py script:
  - The export for ID2 does NOT include any animation data. It only includes the avatar mesh.
  => THIS IS NOT EXPECTED.
 
+Here is another asset ID for which the export of the animation does not work: fe6aa621-d520-425a-a89b-88d27ebefa2b
+
  ### Commands used
  
  See instruction below for setting up the script.
@@ -21,8 +23,11 @@ If I use the python export.py script:
 python export.py 7fae7513-9860-4fa0-80a4-3dd1e75fb8d4
 python export.py 994da76b-7f3c-400a-8c0c-e70815ba384c
 ```
-### Vide used as input
-See file video.mp4 which was used for testing.
+### Input to motion capture
+The input file video.mp4 which was used for testing.
+
+### Export output
+See bad_export.glb as an example of a bad export missing animation data. This is for asset ID 994da76b-7f3c-400a-8c0c-e70815ba384c.
 
 
 ## Installation
