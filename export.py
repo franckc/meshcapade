@@ -92,9 +92,7 @@ def export_avatar(token: str, asset_id: str) -> str:
 
     export_payload = {
         "format": "GLB",
-        "pose": "T",
         "anim": "scan",
-        "compatibilityMode": "DEFAULT",
     }
     
     start_time = time.time()
